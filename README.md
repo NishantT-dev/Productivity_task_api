@@ -1,6 +1,7 @@
 # TASK PRODUCTIVITY (Backend)
 
 ##  Features
+- JWT Authentication, Password Hashing and Input validation
 - User Creation and Login
 - User Info. Update/Delete
 -  TASK Created by User
