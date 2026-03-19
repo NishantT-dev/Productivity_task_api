@@ -1,4 +1,4 @@
-# TASK PRODUCTIVITY (Backend)
+# TASK PRODUCTIVITY (Backend Project)
 
 ##  Features
 - JWT Authentication, Password Hashing and Input validation
@@ -34,9 +34,12 @@ PORT=5000
 
 <img width="940" height="497" alt="image" src="https://github.com/user-attachments/assets/361dda79-8067-4d9a-97a4-a59c478224f7" />
 
-## 1. GET api/tasks/insight?range=year (Get task insights (range = day,week,year))
+## 4. GET api/tasks/insight?range=year (Get task insights (range = day,week,year))
 
 <img width="940" height="421" alt="image" src="https://github.com/user-attachments/assets/7e766d8c-f1a1-4eb3-85a3-fe360cb29223" />
 
+## 5. PATCH api/tasks/:id/complete (To complete a task by ID)
+
+<img width="1363" height="533" alt="image" src="https://github.com/user-attachments/assets/a412f635-2043-47d5-8373-1e36588c635e" />
 
 
