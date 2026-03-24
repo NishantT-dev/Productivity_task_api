@@ -7,8 +7,8 @@ import getAllTask from "../controller/taskController/getAllTask.js";
 import { getTaskInsight } from "../controller/taskController/getTaskInsight.js";
 const taskRouter = express.Router();
 
-taskRouter.post("/", authMiddleware, validateTask, createTask);
-taskRouter.patch("/:id/complete", authMiddleware, updateTask);
-taskRouter.get("/", authMiddleware, getAllTask);
-taskRouter.get("/insight",authMiddleware,getTaskInsight);
+taskRouter.post("/", authMiddleware, validateTask, createTask); // CREATE
+taskRouter.patch("/:id/complete", authMiddleware, updateTask); // UPDATE
+taskRouter.get("/", authMiddleware, getAllTask); // READ
+taskRouter.get("/insight",authMiddleware,getTaskInsight); // GET Tasks Insights
 export default taskRouter;

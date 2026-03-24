@@ -12,7 +12,6 @@ const getAllTask = async (req, res) => {
     }
 
     const tasks = await Task.find(filter);
-    console.log("Fetched tasks:", tasks);
 
     if (!tasks || tasks.length === 0) {
       return res.status(404).json({ message: "No tasks found for this user" });
