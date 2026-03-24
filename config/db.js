@@ -10,5 +10,4 @@ const db_conn = async () => {
     process.exit(1);
   }
 };
-
 export default db_conn;
